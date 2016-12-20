@@ -3,11 +3,7 @@
 To Run the TestNG test
 
     * mvn clean -Dtest=Runner test
-    
-
-To Run the Cucumber test
-
-    * mvn clean -Dtest=RunnerCukes test
+   
     
 
 1.Please make sure you give the absolute path of the apk in the config.properties
@@ -16,9 +12,6 @@ To Run the Cucumber test
 
 3.NO need to start appium server externally , framework takes case of starting and shutting down the server for you.
 
-Post Run :
-
-Once the test run is completed, HTML report will b generated at target/ExtentReport.html
 Additional Info :
 
-Please refer the AppiumTestDistribution Framework for hacks :: https://github.com/saikrishna321/AppiumTestDistribution
+Please refer the TestDistribution Framework for hacks :: https://github.com/manjunatha056/TestDistribution
